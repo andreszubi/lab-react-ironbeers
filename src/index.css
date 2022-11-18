@@ -7,6 +7,62 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+label {
+  font-weight: bold;
+}
+
+
+input {
+  margin:  10px;
+   width: 200px;
+    border-radius: 30px;
+     height: 20px;
+     width: 400px;
+      border: 1px solid #ccc;
+}
+
+button {
+  margin:  30px;
+   width: 200px;
+    border-radius: 30px;
+     height: 45px;
+     width: 400px;
+     background-color: #3EC3FC;
+      color: white;
+      font-size: 1.2em;
+      border-color: #3EC3FC;
+
+}
+
+.links {
+  text-decoration: none;
+  color: black
+}
+
+.random-beer-img {
+  margin-top: 80px;
+  height : 400px;
+
+}
+
+.all-beers-img {
+  height: 150px;
+  width: 60px;
+}
+
+.addBeer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
